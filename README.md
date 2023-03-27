@@ -101,7 +101,7 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-No installation needed
+`Luxon` for Date-time.
 
 ### Usage
 
