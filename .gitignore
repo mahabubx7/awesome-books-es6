@@ -1,0 +1,11 @@
+# nodejs
+node_modules/
+*-error.log
+
+# Others & Misc.
+.vscode
+.temp
+.cache
+.DS_Store
+.exe
+.ini
