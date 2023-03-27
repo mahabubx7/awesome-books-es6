@@ -1,0 +1,36 @@
+{
+  "name": "awesome-es6",
+  "version": "1.0.0",
+  "description": "awesome-books-es6",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "npm run lint:html; npm run lint:css; npm run lint:js",
+    "lint:html": "npx hint .",
+    "lint:css": "npx stylelint '**/*.{css,scss}'",
+    "lint:css:fix": "npx stylelint '**/*.{css,scss}' --fix",
+    "lint:js": "npx eslint .",
+    "lint:js:fix": "npx eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mahabubx7/awesome-books-es6.git"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "keywords": [],
+  "author": "Mahabub mahabubx7@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.5",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
